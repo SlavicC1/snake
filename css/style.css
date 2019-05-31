@@ -3,9 +3,13 @@
     margin: 0;
 }
 
+body{
+    display: flex;
+}
+
 .game-field{
     line-height: 0;
-    margin: 5vmin;
+    border: 5vmin solid white;
     width: 90vmin;
     height: 90vmin;
     background: pink;
@@ -23,4 +27,28 @@
 
 .green{
     background: green;
+}
+
+.description{
+    height: 98vmin;
+    border: 1vmin solid black;
+    padding: 0 10vmin;
+}
+
+.title{
+    font-size: 20vmin;
+    text-align: center;
+    margin-top: 10vmin;
+}
+
+.control-description{
+    font-size: 10vmin;
+    text-align: left;
+    margin-left: 5vmin;
+}
+
+.control{
+    font-size: 10vmin;
+    text-align: left;
+    margin-left: 10vmin;
 }
